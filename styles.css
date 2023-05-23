@@ -1,0 +1,189 @@
+.body{
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+  color: #232222;
+  overflow-x: hidden; /* Evitar el desplazamiento horizontal */
+  margin: 0; /* Eliminar el margen del cuerpo de la página */
+  padding: 0; /* Eliminar el relleno del cuerpo de la página */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Epilogue, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+h5{
+  font-size: 18px;
+}
+p {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+  text-align:'center';
+  margin:auto;
+  
+}
+.pp {
+  width: 60%;
+  
+}
+ul {
+  padding:20px;
+}
+
+#weapon{
+  padding-left: 160px;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+  text-justify:'auto';
+}
+#maincontainer  {   
+top:10px;
+padding-top:10px;
+padding-left:20px;
+padding-right:20px;
+margin:auto; 
+position:relative;
+align-items: center;
+align-content: center;
+}
+  
+.tab-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  padding-bottom: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.paragraph{
+  background-color: #f2f2f2;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  line-height: 1.5;  
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  
+  }
+
+.tab-menu li {
+  font-family: 'Epilogue', sans-serif;
+  
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+.toc-list, .toc-list ol {
+  list-style-type: none;
+}
+
+.toc-list {
+  padding: 0;
+}
+
+.toc-list ol {
+  padding-inline-start: 2ch;
+}
+
+.content li {
+  font-family: 'Epilogue', sans-serif;
+  
+  display: inline-block;
+}
+li::marker {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 90%;
+  font-weight: bold;
+  
+}
+a {
+  font-family: 'Epilogue', sans-serif;
+  padding: 10px;
+  display: inline-block;
+}
+b {
+  font-weight: bold;
+}
+.tab-content {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  
+  width: auto;
+  align-content: center;
+
+}
+.tab-content .plotly-graph-div {
+      max-width: 100%;
+      height: auto ;
+      width: auto;
+      padding-top: 30px;
+    }
+.plot-container{
+  padding-top: 30px;
+}
+.tab-content.kill-chain {
+      max-width: 100%;
+      height: 200% ;
+      width: auto;
+    }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+    width: 100%;
+}
+.parent .row{
+    width:100%;
+    overflow: hidden;
+}
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#scroll-to-top.show {
+  display: block;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 80%;
+  width: 80%;
+  overflow: hidden;
+}
