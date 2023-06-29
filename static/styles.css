@@ -4,6 +4,7 @@
   color: #232222;
   overflow-x: hidden; /* Evitar el desplazamiento horizontal */
   margin: 0; /* Eliminar el margen del cuerpo de la página */
+  padding-top: 10px;
   padding: 0; /* Eliminar el relleno del cuerpo de la página */
 }
 
