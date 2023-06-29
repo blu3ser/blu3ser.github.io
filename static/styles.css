@@ -13,8 +13,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #000000;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 h5{
@@ -26,7 +26,7 @@ p {
   font-size: 16px;
   color: #000000;
   line-height: 1.5;
-  text-align:'center';
+  text-align:justify;
   margin:auto;
   
 }
@@ -35,7 +35,7 @@ p {
   
 }
 ul {
-  padding:20px;
+  padding:1px;
 }
 
 #weapon{
@@ -69,18 +69,20 @@ align-content: center;
 
 .paragraph{
   background-color: #f2f2f2;
-  padding: 10px;
+  padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  line-height: 1.5;  
+  
   width: 70%;
   margin: auto;
   margin-bottom: 20px;
   
   }
-
+.content{
+  margin-left: 120px;
+}
 .tab-menu li {
   font-family: 'Epilogue', sans-serif;
   
@@ -112,7 +114,7 @@ li::marker {
   font-family: 'Epilogue', sans-serif;
   font-size: 90%;
   font-weight: bold;
-  
+  margin-left: 12ch;
 }
 a {
   font-family: 'Epilogue', sans-serif;
