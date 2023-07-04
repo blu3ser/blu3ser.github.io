@@ -29,7 +29,7 @@ p {
   line-height: 1.5;
   text-align:justify;
   margin:auto;
-  padding-top: 10px;
+  
 }
 .image-container {
   text-align: center; /* Alinea la imagen al centro */
@@ -40,29 +40,8 @@ p {
   width: 70%;
   line-height: 1.6;
 }
-
-.cita{
-  width: 60%
-  padding: 15 px;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-
-}
-
-.autor{
-  width: 60%;
-  text-align: left;
-  font-size: 13px;
-}
 ul {
-  font-family: 'Epilogue', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  padding: 10px;
-  line-height: 3;
-  width: 50%;
-  /*Centers the list*/
-  margin: 0 auto;
+  padding:1px;
 }
 
 #weapon{
@@ -108,9 +87,8 @@ align-content: center;
   
   }
 .content{
-  margin: 0;
-  line-height: 1.5;
-  
+  margin-left: 120px;
+  font-family: 'Epilogue', sans-serif;
 }
 .tab-menu li {
   font-family: 'Epilogue', sans-serif;
@@ -137,7 +115,7 @@ align-content: center;
 .content li {
   font-family: 'Epilogue', sans-serif;
   
-  align-items: center;
+  display: inline-block;
 }
 li::marker {
   font-family: 'Epilogue', sans-serif;
@@ -147,53 +125,12 @@ li::marker {
 }
 a {
   font-family: 'Epilogue', sans-serif;
-  padding: 0px;
+  padding: 10px;
   display: inline-block;
 }
 b {
   font-weight: bold;
 }
-
-table {
-      border-collapse: separate;
-      border-spacing: 0;
-      width: 80%;
-      padding: 10px;
-      padding-top: 25px;
-      margin-left: auto;
-      margin-right: auto;
-  }
-  
-th {
-  font-family: 'Epilogue', sans-serif;
-  font-size: 13px;
-  background-color: lightblue;
-  color: black;
-  text-align: center;
-  font-weight: bold;
-  padding: 8px;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black; /* Nuevo estilo */
-}
-
-td {
-  font-family: 'Epilogue', sans-serif;
-  font-size: 13px;
-  padding: 8px;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black; /* Nuevo estilo */
-
-}
-th:last-child,
-    td:last-child {
-        border-right: none;
-    }
-tr:last-child td {
-  border-bottom: none;
-
-}
-
-
 .tab-content {
   display: none;
   margin-top: 10px;
