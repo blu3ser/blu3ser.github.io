@@ -39,3 +39,17 @@ window.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        processEscapes: true
+      },
+      "HTML-CSS": {
+        availableFonts: ["TeX"],
+        showMathMenu: false
+      }
+    });
+
+    MathJax.Hub.Queue(function() {
+      // Código adicional o contenido HTML aquí
+    });
